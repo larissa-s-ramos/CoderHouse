@@ -50,7 +50,36 @@
             <td>Creme de Ameixa</td>
             <td>Creme de Avelã</td>
         </tr>
-
+        <form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                    <span>Gênero:</span>
+                    <span>Masculino</span>
+                        <input type="radio" name="genero" value="masculino"/>
+                    <span>Feminino</span>
+                        <input type="radio" name="genero" value="feminino"/>
+                    <span>Outro</span>
+                    <input type="radio" name="genero" value="outro"/>
+                    <div><br>
+                        Nome:<input>
+                        Sobrenome:<input>
+                    </div><br>
+                    <span>Tamanho</span>
+                    <select name="Tamanhos">
+                        <option  value="G">Garande</option>
+                        <option  value="M">Medio</option>
+                        <option  value="P">Pequeno</option>
+                    </select>
+                    <div><br>
+                        <button type="Subimit">
+                            Enviar Formulário
+                        </button>
+                    </div>
+                        <button type="Reset">
+                            Limpart Formulario
+                        </button>
+            </fieldset>
+        </form>
     </table>
 </body>
 </html>
