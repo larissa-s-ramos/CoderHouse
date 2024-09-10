@@ -1,5 +1,6 @@
 .desafio1{
     color: dimgray;
+    font-style: italic;
 }
 #lista1{
     color: darksalmon;
@@ -10,3 +11,30 @@
 #hello{
     color: blueviolet;
 }
+div {
+    /* propriedades decorativas */
+    border: solid 1px black;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial;
+    /* propriedades que fazem o "problema" */
+    width: 20px;
+    height: 110px;
+}
+div {
+    margin: 5px 8px 5px 8px;
+}
+div {
+    padding: 6px 9px 6px 9px;
+}
+div {
+    border-top: solid 5px red;
+    border-right: solid 10px cyan;
+    border-bottom: solid 7px green;
+    border-left: solid 12px yellow;
+
+    border-radius: 10px;
+    /* faz um círculo
+    border-radius: 100%;  */
+}
+
