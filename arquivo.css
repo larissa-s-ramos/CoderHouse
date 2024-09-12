@@ -37,4 +37,15 @@ div {
     /* faz um círculo
     border-radius: 100%;  */
 }
+p {
+    /*é um elemento em bloco que converto em linha*/
+    display: inline;
+    background-color: yellow;
+}
+
+span {
+    /*é um elemento em linha que converto em bloco*/
+    display: block;
+    background-color: grey;
+}
 

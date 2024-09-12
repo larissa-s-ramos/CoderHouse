@@ -1,0 +1,92 @@
+/* styles.css */
+body {
+    font-family: 'Roboto Mono', sans-serif;
+    margin: 0; /* Remove a margem padrão */
+}
+
+header {
+    background-color: #9bd83c; /* Verde-limão */
+    height: 2cm; /* Altura da navbar */
+    position: fixed; /* Fixar o header no topo */
+    top: 0; /* Alinha o header no topo da página */
+    left: 0; /* Alinha o header à esquerda da página */
+    width: 100%; /* Faz o header ocupar toda a largura da página */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
+}
+
+nav {
+    position: absolute; /* Permite que a nav seja posicionada conforme necessário */
+    bottom: 0; /* Alinha a nav na parte inferior do header */
+    right: 0; /* Alinha a nav à direita do header */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove a margem padrão */
+    display: flex; /* Usar flexbox para os itens da lista */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espaço entre os botões */
+}
+
+nav ul li a {
+    color: black; /* Muda a cor do texto para preto */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Adicionando um pouco de espaço extra na seção para compensar o header fixo */
+section {
+    padding-top: 4cm; /* Alterado para 4cm para ficar mais próximo do header */
+}
+
+#home {
+    text-align: center; /* Centraliza apenas o texto da seção home */
+}
+
+#home h1 {
+    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+/* Estilo da imagem na seção home */
+.imagem-home {
+    width: 500px; /* Define a largura da imagem, ajustando conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+#sobre {
+    /* Estilos para a seção de sobre */
+}
+
+#sobre h2 {
+    margin-bottom: 10px; /* Margem abaixo do título */
+}
+
+#sobre h3 {
+    margin: 5px 0; /* Adiciona margens verticais entre os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+#serviços {
+    /* Estilos para a seção de serviços */
+}
+
+#serviços h1 {
+    margin: 10px 0; /* Margem vertical para espaçar os títulos */
+    color: black; /* Define a cor do texto como preto (opcional) */
+}
+
+#contato {
+    /* Estilos para a seção de contato */
+}
+
+#contato h2 {
+    margin-bottom: 10px; /* Margem abaixo do título */
+}
