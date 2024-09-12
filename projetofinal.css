@@ -84,9 +84,66 @@ section {
 }
 
 #contato {
+    text-align: center; /* Centraliza apenas o texto da seção home */
+}
+
+#contato {
     /* Estilos para a seção de contato */
 }
 
 #contato h2 {
     margin-bottom: 10px; /* Margem abaixo do título */
+}
+
+/* Estilos para o formulário de contato */
+#contact-form {
+    max-width: 400px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    border: 1px solid #ccc; /* Borda ao redor do formulário */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Fundo claro */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor do formulário */
+}
+
+/* Nova regra para abrir campos com uma borda de 1cm */
+#contact-form div {
+    margin-bottom: 15px; /* Espaço entre os campos do formulário */
+}
+
+#contact-form label {
+    display: block; /* Faz o rótulo ocupar toda a linha */
+    margin-bottom: 5px; /* Espaço abaixo do rótulo */
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%; /* Faz os campos do formulário ocuparem toda a largura */
+    padding: 10px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas nos campos */
+}
+
+/* Ajuste para garantir 1cm de espaço ao redor dos campos */
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    box-sizing: border-box; /* Inclui a borda e o padding na largura total do campo */
+    border: 1px solid #ccc; /* Borda dos campos */
+    margin: 0.5cm 0; /* Margem para os campos */
+}
+
+/* Botão */
+#contact-form button {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Remove a borda padrão */
+    padding: 10px 15px; /* Espaço interno do botão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Muda o cursor ao passar por cima do botão */
+}
+
+#contact-form button:hover {
+    background-color: #45a049; /* Cor do botão ao passar o mouse */
 }
